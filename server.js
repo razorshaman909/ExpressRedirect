@@ -4,7 +4,9 @@ const fs = require("fs");
 const app = express();
 const port = process.env.PORT || 3000;
 const url =
-  "YOUR_SHEET_LINK_WITH_API";
+  "YOUR_SHEET_LINK_WITH_API_IN_THE_FOLLOWING_FORMAT";
+// https://sheets.googleapis.com/v4/spreadsheets/SHEET_ID/values/Sheet1?key=API_KEY
+
 // const getdata = () =>
 //   fetch(url)
 //     .then((response) => response.json())
